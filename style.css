@@ -107,6 +107,8 @@ nav li a {
     gap: 24px;
     margin-right: 73px;
     margin-bottom: 100px;
+    margin-top: 85px;
+    left: 54px;
 }
 
 .quick-title {
@@ -135,8 +137,12 @@ nav li a {
     margin-bottom: 32px;
 }
 
+/* feature part styles */
 .feature-part {
     display: flex;
+    margin-bottom: 130px;
+    margin: 0px 150px;
+
 }
 
 .small {
@@ -144,6 +150,8 @@ nav li a {
     height: 982px;
     left: 972px;
     top: 2245px;
+    position: absolute;
+
 
 }
 
@@ -211,6 +219,107 @@ nav li a {
     color: #FFFFFF;
 }
 
-/* .up{
-    margin-bottom: 80px;
-} */
+/* fact part style */
+.fact {
+    justify-items: right;
+    margin: 0px 150px;
+    margin-bottom: 100px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.fact-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* logo-part styles */
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 180px;
+
+}
+
+.logo-part {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.style-container {
+    width: 169px;
+    height: 136.22px;
+    left: 312px;
+    top: 3709px;
+    text-align: center;
+    margin: 45px auto;
+
+
+}
+
+.gain {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+.digit {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #424242;
+}
+
+/* Sponspors style */
+.Sponspors {
+    text-align: center;
+}
+
+.Sponspor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.Sponspor-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+
+/* brand-logo styles */
+.brand {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+/* footer styles */
+.footer {
+    text-align: center;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-description{
+margin: 0 auto;
+left: 650px;
+top: 4483px;
+font-weight: 400;
+font-size: 20px;
+color: #424242;
+}
