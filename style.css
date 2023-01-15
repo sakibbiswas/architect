@@ -146,12 +146,11 @@ nav li a {
 }
 
 .small {
-    width: 708px;
-    height: 982px;
-    left: 972px;
-    top: 2245px;
+    width: 800px;
+    height:1060px;
+    left: 920px;
+    top: 2300px;
     position: absolute;
-
 
 }
 
@@ -201,8 +200,15 @@ nav li a {
     top: 3104px;
     background: #FF900E;
     border-radius: 8px;
-    position: absolute;
-
+    position: absolute; 
+}
+.btn-big:hover{
+     box-shadow: inset;
+     transform:scale(1.5) ;
+     -webkit-transform:scale(1.5) ;
+     -moz-transform:scale(1.5) ;
+     -ms-transform:scale(1.5) ;
+     -o-transform:scale(1.5) ;
 }
 
 .big-font {
@@ -210,6 +216,9 @@ nav li a {
     font-size: 65px;
     text-align: center;
     color: #FFFFFF;
+}
+.big-font:hover{
+ color: aqua;
 }
 
 .small-font {
@@ -246,6 +255,17 @@ nav li a {
     margin-bottom: 180px;
 
 }
+.logo-part:hover{
+ z-index: 1;
+ box-shadow: 0 8px 50px rgba(0, 0, 0, 0.02);
+ transform: scale(1.05);
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -ms-transform: scale(1.05);
+ -o-transform: scale(1.05);
+ background-color: #FF900E;
+}
+
 
 .logo-part {
     width: 241.83px;
@@ -307,19 +327,21 @@ nav li a {
 }
 
 /* footer styles */
-.footer {
+footer{
     text-align: center;
     width: 1440px;
     height: 100px;
+    left: 240px;
+    top: 4444px;
     background: #FFF4E7;
     border-radius: 8px;
+    margin: 0 80px ;
 }
 
-.footer-description{
-margin: 0 auto;
-left: 650px;
-top: 4483px;
-font-weight: 400;
-font-size: 20px;
-color: #424242;
+ .footer-bottom{
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+
 }
