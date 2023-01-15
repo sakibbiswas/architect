@@ -90,7 +90,28 @@ nav li a {
     left: 240px;
     top: 577px;
 }
+/* overflow */
+.overflow{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+.ac{
+    text-align: center;
+}
+.minimize{
+    width: 140px;
+    border: 3px solid red;
+     overflow: hidden; 
 
+
+}
+.texts{
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+
+}
 /* quick styles */
 .section {}
 
