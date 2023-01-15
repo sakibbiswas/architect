@@ -90,28 +90,33 @@ nav li a {
     left: 240px;
     top: 577px;
 }
+
 /* overflow */
-.overflow{
-   display: flex;
-   justify-content: center;
-   gap: 30px;
+.overflow {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
-.ac{
+
+.ac {
     text-align: center;
 }
-.minimize{
+
+.minimize {
     width: 140px;
     border: 3px solid red;
-     overflow: hidden; 
+    overflow: hidden;
 
 
 }
-.texts{
+
+.texts {
     white-space: nowrap;
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
     overflow: hidden;
 
 }
+
 /* quick styles */
 .section {}
 
@@ -168,14 +173,15 @@ nav li a {
 
 .small {
     width: 800px;
-    height:1060px;
+    height: 1060px;
     left: 920px;
     top: 2300px;
     position: absolute;
 
 }
-.line{
-    color:#fa8b0d;
+
+.line {
+    color: #fa8b0d;
     font-weight: 700px;
     position: absolute;
     font-family: 'Work Sans';
@@ -237,15 +243,16 @@ nav li a {
     top: 3104px;
     background: #FF900E;
     border-radius: 8px;
-    position: absolute; 
+    position: absolute;
 }
-.btn-big:hover{
-     box-shadow: inset;
-     transform:scale(1.5) ;
-     -webkit-transform:scale(1.5) ;
-     -moz-transform:scale(1.5) ;
-     -ms-transform:scale(1.5) ;
-     -o-transform:scale(1.5) ;
+
+.btn-big:hover {
+    box-shadow: inset;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 .big-font {
@@ -254,8 +261,9 @@ nav li a {
     text-align: center;
     color: #FFFFFF;
 }
-.big-font:hover{
- color: aqua;
+
+.big-font:hover {
+    color: aqua;
 }
 
 .small-font {
@@ -292,15 +300,16 @@ nav li a {
     margin-bottom: 180px;
 
 }
-.logo-part:hover{
- z-index: 1;
- box-shadow: 0 8px 50px rgba(0, 0, 0, 0.02);
- transform: scale(1.05);
- -webkit-transform: scale(1.05);
- -moz-transform: scale(1.05);
- -ms-transform: scale(1.05);
- -o-transform: scale(1.05);
- background-color: #FF900E;
+
+.logo-part:hover {
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.02);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    background-color: #FF900E;
 }
 
 
@@ -364,26 +373,27 @@ nav li a {
 }
 
 /* footer styles */
-footer{
+footer {
     text-align: center;
     width: 1440px;
     height: 100px;
     left: 240px;
     top: 4444px;
+
     background: #FFF4E7;
     border-radius: 8px;
-    margin: 0 80px ;
+    margin: 0 auto;
+    padding-top: 39px;
 }
 
- .footer-bottom{
+.footer-bottom {
     margin: 0 auto;
     font-weight: 400;
     font-size: 20px;
     color: #424242;
+    padding: 0 15px;
 
 }
+
 /* Responsive part */
-@media screen and (max-width:576px)
- {
-
-}
+@media screen and (max-width:576px) {}
